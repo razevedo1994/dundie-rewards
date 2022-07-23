@@ -13,7 +13,7 @@ virtualenv:
 	@python3 -m venv .venv
 
 test:
-	@.venv/bin/pytest
+	@.venv/bin/pytest -s
 
 clean:
 	@find ./ -name '@.pyc' -exec rm -f {} \;
