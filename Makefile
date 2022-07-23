@@ -15,9 +15,6 @@ virtualenv:
 test:
 	@.venv/bin/pytest -s
 
-testci:
-	@pytest -v --junitxml=test-result.xml
-
 clean:
 	@find ./ -name '@.pyc' -exec rm -f {} \;
 	@find ./ -name '__pycache__' -exec rm -rf {} \;
