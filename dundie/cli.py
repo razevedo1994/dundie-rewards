@@ -1,7 +1,7 @@
-import rich_click as click
-from rich.table import Table
-from rich.console import Console
 import pkg_resources
+import rich_click as click
+from rich.console import Console
+from rich.table import Table
 
 from dundie import core
 
