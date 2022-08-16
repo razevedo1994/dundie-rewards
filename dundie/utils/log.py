@@ -7,8 +7,8 @@ LOG_LEVEL = os.getenv("LOG_LEVEL", "WARNING").upper()
 log = logging.getLogger("dundie")
 
 fmt = logging.Formatter(
-    "%(ascime)s %(name)s %(levelname)s "
-    "1:%(lileno)d f:%(filename)s: %(message)s"
+    "%(asctime)s %(name)s %(levelname)s "
+    "1:%(lineno)d f:%(filename)s: %(message)s"
 )
 
 
