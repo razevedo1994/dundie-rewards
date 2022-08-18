@@ -1,0 +1,148 @@
+{
+    "people": {
+        "jim@dundlermifflin.com": {
+            "name": "Jim Halpert",
+            "dept": "Sales",
+            "role": "Salesman"
+        },
+        "schrute@dundlermifflin.com": {
+            "name": "Dwight Schrute",
+            "dept": "Sales",
+            "role": "Manager"
+        },
+        "glewis@dundlermifflin.com": {
+            "name": "Gabe Lewis",
+            "dept": "C-Level",
+            "role": "CEO"
+        }
+    },
+    "balance": {
+        "jim@dundlermifflin.com": 800,
+        "schrute@dundlermifflin.com": 400,
+        "glewis@dundlermifflin.com": 100
+    },
+    "movement": {
+        "jim@dundlermifflin.com": [
+            {
+                "data": "2022-08-16T00:35:49.712667",
+                "actor": "system",
+                "value": 500
+            },
+            {
+                "data": "2022-08-17T21:38:18.589664",
+                "actor": "razevedo",
+                "value": 30
+            },
+            {
+                "data": "2022-08-17T21:47:54.203034",
+                "actor": "razevedo",
+                "value": 332
+            },
+            {
+                "data": "2022-08-17T21:48:20.209399",
+                "actor": "razevedo",
+                "value": 62
+            },
+            {
+                "data": "2022-08-17T21:49:02.346322",
+                "actor": "razevedo",
+                "value": -62
+            },
+            {
+                "data": "2022-08-17T21:49:07.140227",
+                "actor": "razevedo",
+                "value": -62
+            },
+            {
+                "data": "2022-08-17T21:50:57.438884",
+                "actor": "razevedo",
+                "value": 62
+            },
+            {
+                "data": "2022-08-17T21:51:20.535755",
+                "actor": "razevedo",
+                "value": -62
+            },
+            {
+                "data": "2022-08-17T21:52:36.665602",
+                "actor": "razevedo",
+                "value": 62
+            },
+            {
+                "data": "2022-08-17T21:52:39.963061",
+                "actor": "razevedo",
+                "value": -62
+            }
+        ],
+        "schrute@dundlermifflin.com": [
+            {
+                "data": "2022-08-16T00:35:49.713677",
+                "actor": "system",
+                "value": 100
+            },
+            {
+                "data": "2022-08-17T21:38:18.589671",
+                "actor": "razevedo",
+                "value": 30
+            },
+            {
+                "data": "2022-08-17T21:47:54.203042",
+                "actor": "razevedo",
+                "value": 332
+            },
+            {
+                "data": "2022-08-17T21:48:20.209407",
+                "actor": "razevedo",
+                "value": 62
+            },
+            {
+                "data": "2022-08-17T21:49:02.346330",
+                "actor": "razevedo",
+                "value": -62
+            },
+            {
+                "data": "2022-08-17T21:49:07.140235",
+                "actor": "razevedo",
+                "value": -62
+            },
+            {
+                "data": "2022-08-17T21:50:57.438891",
+                "actor": "razevedo",
+                "value": 62
+            },
+            {
+                "data": "2022-08-17T21:51:20.535763",
+                "actor": "razevedo",
+                "value": -62
+            },
+            {
+                "data": "2022-08-17T21:52:36.665612",
+                "actor": "razevedo",
+                "value": 62
+            },
+            {
+                "data": "2022-08-17T21:52:39.963069",
+                "actor": "razevedo",
+                "value": -62
+            }
+        ],
+        "glewis@dundlermifflin.com": [
+            {
+                "data": "2022-08-16T00:35:49.714004",
+                "actor": "system",
+                "value": 100
+            }
+        ]
+    },
+    "users": {
+        "jim@dundlermifflin.com": {
+            "password": "bz7cdo4G"
+        },
+        "schrute@dundlermifflin.com": {
+            "password": "4UumlowR"
+        },
+        "glewis@dundlermifflin.com": {
+            "password": "UyiB4lJr"
+        }
+    }
+}
