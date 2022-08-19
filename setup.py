@@ -26,14 +26,15 @@ def read_requirements(path):
 
 
 setup(
-    name="dundie",
-    version="0.1.0",
+    name="azevedo-dundie",
+    version="0.1.1",
     description="Reward Point System for Dunder Mifflin",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
     author="Rodrigo Azevedo",
     python_requires=">=3.8",
-    packages=find_packages(),
+    packages=find_packages(exclude=["integration"]),
+    include_package_data=True,
     entry_points={"console_scripts": ["dundie = dundie.__main__:main"]},
     install_requires=read_requirements("requirements.txt"),
     extras_require={

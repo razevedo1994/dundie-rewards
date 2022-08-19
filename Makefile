@@ -1,12 +1,8 @@
-.PHONY: install virtualenv ipython clean test pflake8
+.PHONY: install virtualenv ipython clean test pflake8 build
 
-install dev:
-	@echo "Install for dev environment"
-	@.venv/bin/python -m pip install -e '.[dev]'
-
-install test:
-	@echo "Install for test environment"
-	@.venv/bin/python -m pip install -e '.[test]'
+install:
+	@echo "Installing for dev environment"
+	@.venv/bin/python -m pip install -e '.[test,dev]'
 
 virtualenv:
 	@echo "Creating virtual environment"
@@ -36,3 +32,12 @@ clean:
 	@rm -rf htmlcov
 	@rm -rf .tox/
 	@rm -rf docs/_build
+
+build:
+	@python setup.py sdist bdist_wheel
+
+publish-test:
+	@twine upload --repository testpypi dist/*
+
+publish:
+	@twine upload dist/*
