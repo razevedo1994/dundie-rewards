@@ -3,9 +3,9 @@ import smtplib
 from email.mime.text import MIMEText
 
 from dundie.settings import SMTP_HOST, SMTP_PORT, SMTP_TIMEOUT
-from dundie.utils.log import get_loggers
+from dundie.utils.log import get_logger
 
-log = get_loggers()
+log = get_logger()
 
 regex = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b"
 

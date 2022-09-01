@@ -12,7 +12,7 @@ fmt = logging.Formatter(
 )
 
 
-def get_loggers(logfile="dundie.log"):
+def get_logger(logfile="dundie.log"):
     """Returns a configured logger."""
     fh = handlers.RotatingFileHandler(
         logfile,
